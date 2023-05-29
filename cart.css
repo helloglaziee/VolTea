@@ -1,0 +1,82 @@
+body {
+    background-color: #f6f6f6;
+    background-image: url("imgs/bgtea.jpg");
+    background-position-x: center;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  }
+  
+  .container {
+    max-width: 500px;
+    max-height: 300px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .content {
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+  }
+  
+  .btn-checkout {
+    width: 100%;
+    background-color: #5cb85c;
+    border-color: #5cb85c;
+  }
+  
+  .btn-checkout:hover,
+  .btn-checkout:focus {
+    background-color: #4cae4c;
+    border-color: #4cae4c;
+  }
+  
+  .btn-go-back {
+    margin-top: 10px;
+    width: 100%;
+  }
+  
+  .btn-go-back:hover,
+  .btn-go-back:focus {
+    background-color: #ccc;
+  }
+
+  input[type="radio"] {
+    margin-right: 5px;
+    align-items: center;
+  }
+  
+  label {
+    display: inline-block;
+    margin-bottom: 5px;
+    cursor: pointer;
+  }
+  
+  .radio-container {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  .radio-container label {
+    margin-right: 10px;
+
+  }
+  
